@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Battleships - Place Ships</title>
+    <link rel="stylesheet" href="style.css">
+    <script rel="script" type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<table>
+    <thead></thead>
+<tbody>
+    <tr>
+        <td><button type="submit" disabled>A</button></td>
+        <td><button type="submit" id="btna1" onclick="setShip('a1')"></button></td>
+        <td><button type="submit" id="btna2" onclick="setShip('a2')"></button></td>
+        <td><button type="submit" id="btna3" onclick="setShip('a3')"></button></td>
+        <td><button type="submit" id="btna4" onclick="setShip('a4')"></button></td>
+        <td><button type="submit" id="btna5" onclick="setShip('a5')"></button></td>
+        <td><button type="submit" id="btna6" onclick="setShip('a6')"></button></td>
+        <td><button type="submit" id="btna7" onclick="setShip('a7')"></button></td>
+        <td><button type="submit" id="btna8" onclick="setShip('a8')"></button></td>
+        <td><button type="submit" id="btna9" onclick="setShip('a9')"></button></td>
+        <td><button type="submit" id="btna10" onclick="setShip('a10')"></button></td>
+    </tr>
+    <tr>
+        <td><button type="submit" disabled>B</button></td>
+        <td><button type="submit" id="btnb1" onclick="setShip('b1')"></button></td>
+        <td><button type="submit" id="btnb2" onclick="setShip('b2')"></button></td>
+        <td><button type="submit" id="btnb3" onclick="setShip('b3')"></button></td>
+        <td><button type="submit" id="btnb4" onclick="setShip('b4')"></button></td>
+        <td><button type="submit" id="btnb5" onclick="setShip('b5')"></button></td>
+        <td><button type="submit" id="btnb6" onclick="setShip('b6')"></button></td>
+        <td><button type="submit" id="btnb7" onclick="setShip('b7')"></button></td>
+        <td><button type="submit" id="btnb8" onclick="setShip('b8')"></button></td>
+        <td><button type="submit" id="btnb9" onclick="setShip('b9')"></button></td>
+        <td><button type="submit" id="btnb10" onclick="setShip('b10')"></button></td>
+    </tr>
+<tr>
+        <td><button type="submit" disabled>C</button></td>
+        <td><button type="submit" id="btnc1" onclick="setShip('c1')"></button></td>
+        <td><button type="submit" id="btnc2" onclick="setShip('c2')"></button></td>
+        <td><button type="submit" id="btnc3" onclick="setShip('c3')"></button></td>
+        <td><button type="submit" id="btnc4" onclick="setShip('c4')"></button></td>
+        <td><button type="submit" id="btnc5" onclick="setShip('c5')"></button></td>
+        <td><button type="submit" id="btnc6" onclick="setShip('c6')"></button></td>
+        <td><button type="submit" id="btnc7" onclick="setShip('c7')"></button></td>
+        <td><button type="submit" id="btnc8" onclick="setShip('c8')"></button></td>
+        <td><button type="submit" id="btnc9" onclick="setShip('c9')"></button></td>
+        <td><button type="submit" id="btnc10" onclick="setShip('c10')"></button></td>
+    </tr>
+<tr>
+        <td><button type="submit" disabled>D</button></td>
+        <td><button type="submit" id="btnd1" onclick="setShip('d1')"></button></td>
+        <td><button type="submit" id="btnd2" onclick="setShip('d2')"></button></td>
+        <td><button type="submit" id="btnd3" onclick="setShip('d3')"></button></td>
+        <td><button type="submit" id="btnd4" onclick="setShip('d4')"></button></td>
+        <td><button type="submit" id="btnd5" onclick="setShip('d5')"></button></td>
+        <td><button type="submit" id="btnd6" onclick="setShip('d6')"></button></td>
+        <td><button type="submit" id="btnd7" onclick="setShip('d7')"></button></td>
+        <td><button type="submit" id="btnd8" onclick="setShip('d8')"></button></td>
+        <td><button type="submit" id="btnd9" onclick="setShip('d9')"></button></td>
+        <td><button type="submit" id="btnd10" onclick="setShip('d10')"></button></td>
+    </tr>
+<tr>
+        <td><button type="submit" disabled>E</button></td>
+        <td><button type="submit" id="btne1" onclick="setShip('e1')"></button></td>
+        <td><button type="submit" id="btne2" onclick="setShip('e2')"></button></td>
+        <td><button type="submit" id="btne3" onclick="setShip('e3')"></button></td>
+        <td><button type="submit" id="btne4" onclick="setShip('e4')"></button></td>
+        <td><button type="submit" id="btne5" onclick="setShip('e5')"></button></td>
+        <td><button type="submit" id="btne6" onclick="setShip('e6')"></button></td>
+        <td><button type="submit" id="btne7" onclick="setShip('e7')"></button></td>
+        <td><button type="submit" id="btne8" onclick="setShip('e8')"></button></td>
+        <td><button type="submit" id="btne9" onclick="setShip('e9')"></button></td>
+        <td><button type="submit" id="btne10" onclick="setShip('e10')"></button></td>
+    </tr>
+<tr>
+        <td><button type="submit" disabled>F</button></td>
+        <td><button type="submit" id="btnf1" onclick="setShip('f1')"></button></td>
+        <td><button type="submit" id="btnf2" onclick="setShip('f2')"></button></td>
+        <td><button type="submit" id="btnf3" onclick="setShip('f3')"></button></td>
+        <td><button type="submit" id="btnf4" onclick="setShip('f4')"></button></td>
+        <td><button type="submit" id="btnf5" onclick="setShip('f5')"></button></td>
+        <td><button type="submit" id="btnf6" onclick="setShip('f6')"></button></td>
+        <td><button type="submit" id="btnf7" onclick="setShip('f7')"></button></td>
+        <td><button type="submit" id="btnf8" onclick="setShip('f8')"></button></td>
+        <td><button type="submit" id="btnf9" onclick="setShip('f9')"></button></td>
+        <td><button type="submit" id="btnf10" onclick="setShip('f10')"></button></td>
+    </tr>
+<tr>
+        <td><button type="submit" disabled>G</button></td>
+        <td><button type="submit" id="btng1" onclick="setShip('g1')"></button></td>
+        <td><button type="submit" id="btng2" onclick="setShip('g2')"></button></td>
+        <td><button type="submit" id="btng3" onclick="setShip('g3')"></button></td>
+        <td><button type="submit" id="btng4" onclick="setShip('g4')"></button></td>
+        <td><button type="submit" id="btng5" onclick="setShip('g5')"></button></td>
+        <td><button type="submit" id="btng6" onclick="setShip('g6')"></button></td>
+        <td><button type="submit" id="btng7" onclick="setShip('g7')"></button></td>
+        <td><button type="submit" id="btng8" onclick="setShip('g8')"></button></td>
+        <td><button type="submit" id="btng9" onclick="setShip('g9')"></button></td>
+        <td><button type="submit" id="btng10" onclick="setShip('g10')"></button></td>
+    </tr>
+<tr>
+        <td><button type="submit" disabled>H</button></td>
+        <td><button type="submit" id="btnh1" onclick="setShip('h1')"></button></td>
+        <td><button type="submit" id="btnh2" onclick="setShip('h2')"></button></td>
+        <td><button type="submit" id="btnh3" onclick="setShip('h3')"></button></td>
+        <td><button type="submit" id="btnh4" onclick="setShip('h4')"></button></td>
+        <td><button type="submit" id="btnh5" onclick="setShip('h5')"></button></td>
+        <td><button type="submit" id="btnh6" onclick="setShip('h6')"></button></td>
+        <td><button type="submit" id="btnh7" onclick="setShip('h7')"></button></td>
+        <td><button type="submit" id="btnh8" onclick="setShip('h8')"></button></td>
+        <td><button type="submit" id="btnh9" onclick="setShip('h9')"></button></td>
+        <td><button type="submit" id="btnh10" onclick="setShip('h10')"></button></td>
+    </tr>
+<tr>
+        <td><button type="submit" disabled>I</button></td>
+        <td><button type="submit" id="btni1" onclick="setShip('i1')"></button></td>
+        <td><button type="submit" id="btni2" onclick="setShip('i2')"></button></td>
+        <td><button type="submit" id="btni3" onclick="setShip('i3')"></button></td>
+        <td><button type="submit" id="btni4" onclick="setShip('i4')"></button></td>
+        <td><button type="submit" id="btni5" onclick="setShip('i5')"></button></td>
+        <td><button type="submit" id="btni6" onclick="setShip('i6')"></button></td>
+        <td><button type="submit" id="btni7" onclick="setShip('i7')"></button></td>
+        <td><button type="submit" id="btni8" onclick="setShip('i8')"></button></td>
+        <td><button type="submit" id="btni9" onclick="setShip('i9')"></button></td>
+        <td><button type="submit" id="btni10" onclick="setShip('i10')"></button></td>
+    </tr>
+<tr>
+        <td><button type="submit" disabled>J</button></td>
+        <td><button type="submit" id="btnj1" onclick="setShip('j1')"></button></td>
+        <td><button type="submit" id="btnj2" onclick="setShip('j2')"></button></td>
+        <td><button type="submit" id="btnj3" onclick="setShip('j3')"></button></td>
+        <td><button type="submit" id="btnj4" onclick="setShip('j4')"></button></td>
+        <td><button type="submit" id="btnj5" onclick="setShip('j5')"></button></td>
+        <td><button type="submit" id="btnj6" onclick="setShip('j6')"></button></td>
+        <td><button type="submit" id="btnj7" onclick="setShip('j7')"></button></td>
+        <td><button type="submit" id="btnj8" onclick="setShip('j8')"></button></td>
+        <td><button type="submit" id="btnj9" onclick="setShip('j9')"></button></td>
+        <td><button type="submit" id="btnj10" onclick="setShip('j10')"></button></td>
+    </tr>
+<tr>
+        <td><button type="submit" disabled></button></td>
+        <td><button type="submit" disabled>1</button></td>
+        <td><button type="submit" disabled>2</button></td>
+        <td><button type="submit" disabled>3</button></td>
+        <td><button type="submit" disabled>4</button></td>
+        <td><button type="submit" disabled>5</button></td>
+        <td><button type="submit" disabled>6</button></td>
+        <td><button type="submit" disabled>7</button></td>
+        <td><button type="submit" disabled>8</button></td>
+        <td><button type="submit" disabled>9</button></td>
+        <td><button type="submit" disabled>10</button></td>
+    </tr>
+</tbody>
+</table>
+<form>
+    <input name="chosenfields" style="display: none;">
+    <button type="submit" onclick="">Start</button>
+</form>
+</body>
+</html>

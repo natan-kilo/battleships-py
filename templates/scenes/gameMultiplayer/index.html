@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Battleships - Play Multiplayer</title>
+    <link rel="stylesheet" href="/static/mainMenu/style.css">
+</head>
+<body>
+    <center>
+        <div id="btn-container">
+            <form action="/playmultiplayer-connect" method="POST">
+                <input name="targetIp">
+                <button type="submit">Connect</button>
+            </form>
+            <form action="/playmultiplayer-host">
+                <button type="submit">Host</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
