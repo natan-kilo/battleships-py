@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Alfa Slab One";
+    src: url("AlfaSlabOne-Regular.ttf");
+    font-style: normal;
+}
+
+body {
+    background-color: #444444;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Alfa Slab One";
+    color: #e9e7d5;
+    font-size: 75px;
+    text-shadow: 0 0 20px #222222;
+}
+
+div#btn-container {
+    position: fixed;
+    height: 50%;
+    background-color: #333333;
+    width: 40%;
+    left: 30%;
+    top: 25%;
+}
+
+input#inpt-username {
+    position: absolute;
+    top: 45%;
+    width: 30%;
+    left: 35%;
+    padding: 10px;
+    border: 0 solid;
+    border-bottom: 1px solid #eeeeee;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+input#inpt-username:focus {
+    border-bottom: 2px solid #4585e9;
+}
+
+label#lblUsr {
+    font-family: Sans-Serif;
+    position: absolute;
+    top: 42%;
+    font-size: 14px;
+    color: #ffffff;
+    left: 35%;
+}
+
+label#lblPick {
+    font-family: Sans-Serif;
+    position: absolute;
+    top: 35%;
+    font-size: 20px;
+    color: #eeeeee;
+    left: 41%;
+}
+
+button {
+    font-family: Sans-Serif;
+    font-size: 14px;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    padding: 10px 20px;
+    background: #41adff;
+    color: #ffffff;
+    border: 0 solid;
+}
+
+button:hover {
+    background-color: #4585e9;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: #444444;
+    font-style: normal;
+}
+
+div#btn-container {
+    position: fixed;
+    height: 50%;
+    background-color: #333333;
+    width: 40%;
+    left: 30%;
+    top: 25%;
+}
+
+button {
+    font-family: Sans-Serif;
+    font-size: 14px;
+    position: absolute;
+    padding: 10px 20px;
+    background: #41adff;
+    color: #ffffff;
+    border: 0 solid;
+}
+
+button:hover {
+    background-color: #4585e9;
+}
+
+#btnPlayMulti {
+    top: 30%;
+    left: 40%;
+    width: 20%;
+}
+
+#btnPlaySingle {
+    top: 40%;
+    left: 40%;
+    width: 20%;
+}
+
+#btnSettings {
+    top: 50%;
+    left: 40%;
+    width: 20%;
+}
+
+#btnAbout {
+    top: 60%;
+    left: 40%;
+    width: 20%;
+}
